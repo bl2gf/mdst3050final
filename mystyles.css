@@ -6,6 +6,7 @@
     font-family: 'Didact Gothic', sans-serif;
   }
   body{
+      background-color: tomato;
     }
   decades{
       width: 100%;
@@ -26,6 +27,7 @@
       height: auto;
       margin: 5px;
       border: 6px;
+      background-color: transparent;
   }
 
 .image:hover{
