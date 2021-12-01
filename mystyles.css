@@ -1,0 +1,12 @@
+mystyles.css
+ *{
+    background-color: rgb(74, 152, 179);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Didact Gothic', sans-serif;
+  }
+  body{
+      width: 100%;
+      min-height: 100wh;
+  }
