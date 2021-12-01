@@ -6,8 +6,10 @@
     font-family: 'Didact Gothic', sans-serif;
   }
   body{
+    }
+  decades{
       width: 100%;
-      min-height: 100wh;
+      min-height: auto;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
@@ -17,10 +19,24 @@
   h1{
       font-size: 64px;
       color: white;
-  }
+      text-align: center;
+      }
   img{
-      width: 500px;
+      width: 40%;
       height: auto;
       margin: 5px;
       border: 6px;
+  }
+
+.image:hover{
+    
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+  }
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    decades {
+      width: 100%;
+    }
   }
