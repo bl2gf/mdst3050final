@@ -1,18 +1,16 @@
- *{
+body{
     background-color: rgb(74, 152, 179);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Didact Gothic', sans-serif;
   }
-  body{
-    }
-    
-  h1{
-    font-size: 50px;
-    color: rgb(247, 242, 225);
+
+  #thetitlee{
+    font-size: 60px;
+    color: rgb(74, 152, 179);
     text-align: center;
-    animation: text 3s 1;
+    animation: text 2s 1;
     letter-spacing: 8px;
     padding-bottom: 50px;
     padding-top: 20px;
@@ -26,6 +24,7 @@
       flex-wrap: wrap;
       align-items: center;
       justify-content: center;
+
   }
  .decades img {
     width: 40%;
@@ -60,6 +59,9 @@
         margin-bottom: -40px;
     }
 }
+
+
+
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 500px) {
   }
