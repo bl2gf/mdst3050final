@@ -7,7 +7,18 @@
   }
   body{
     }
-  decades{
+    
+  h1{
+    font-size: 50px;
+    color: rgb(247, 242, 225);
+    text-align: center;
+    animation: text 3s 1;
+    letter-spacing: 8px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+
+    }
+ decades{
       width: 100%;
       min-height: auto;
       display: flex;
@@ -16,28 +27,38 @@
       align-items: center;
       justify-content: center;
   }
-  h1{
-      font-size: 64px;
-      color: white;
-      text-align: center;
-      }
-  img{
-      width: 40%;
-      height: auto;
-      margin: 5px;
-      border: 6px;
-      background-color: transparent;
-  }
-
+ .decades img {
+    width: 40%;
+    height: auto;
+    margin-left: 100px;
+    border: 2px;
+    background-color: transparent;
+}
 .image:hover{
     
     -ms-transform: scale(1.05); /* IE 9 */
     -webkit-transform: scale(1.05); /* Safari 3-8 */
     transform: scale(1.05); 
   }
+
+
+
+
+@keyframes text {
+    0%{
+        color: rgb(74, 152, 179);
+        margin: bottom -40px;
+    }
+
+    30%{
+        letter-spacing: 15px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 500px) {
-    decades {
-      width: 100%;
-    }
   }
