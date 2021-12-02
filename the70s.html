@@ -2,41 +2,19 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <link rel="stylesheet" href="mystyles.css">
+        <link rel="stylesheet" href="mypagestyles.css">
         <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         <title>MDST FINAL CREATIVE PROJECT- THE 70S</title>
         <!-- here is the library link -->
-        <script src="jquery-3.4.0.min.js"></script>
-        
-        <!-- below will go our script -->
-        <script src="scripts/navbar.js">
-            
-            /* only execute this script when the document is ready */
-            $(document).ready(function(){
-            /* function called when you click of the button */
-            $("button").click(function(){
-                
-                /* this if else to change the text in the button */
-                if($("button").text() == "☰"){
-                $("button").text("🞬");
-                }else{
-                    $("button").text("☰");
-                }
-                
-                /* this function toggle the visibility of our "li" elements */
-                $("li").toggle("slow");
-            });
-            });
 
-        </script>
       </head>
     <body>
 
 
-
+        <a href="./index.html" style="text-decoration:none">
         <h1 id = thetitlee >Museum of Ads & the Male Gaze</h1>
-
+    </a>
         
         <nav>
             <ul>
@@ -44,26 +22,26 @@
 
               <li> 
                 <!-- link one -->
-                <a href="./the70s.html"> The 70s </a>
+                <a href="./the70s.html" class="aa"> The 70s </a>
               </li>
               <li>
                 <!-- link two -->
-                <a href="./the80s.html"> The 80s </a>
+                <a href="./the80s.html"class="aa"> The 80s </a>
               </li>
               <li>
                 <!-- link three -->
-                <a href="./the90s.html"> The 90s </a>
+                <a href="./the90s.html"class="aa"> The 90s </a>
               </li>
               <li>
                 <!-- link four -->
-                <a href="./the2000s.html"> The 2000s </a>
+                <a href="./the2000s.html"class="aa"> The 2000s </a>
               </li>
             </ul>
           </nav>
 
 
         <div class = theheading>
-            <img src="./Cropped70.png" class="theheadingimg">
+            <img src="./Croped70.png" class="theheadingimg">
         </div>
         
         <h1>My First Heading</h1>
@@ -71,4 +49,10 @@
         
 
         </body>
+
+        <footer>
+            <p>Project by: Anoosha Murtaza, Jaelyn Deguia, Brenda Liu, Bri Ayoub, Sakyra Abbitt. All citations and alternative reading can be found <a href="https://docs.google.com/document/d/15DS8fey-594QcBzGLsgYljKeSuuG_OEZ_VeFvZTvy4A/edit?usp=sharing" target="_blank"> here</a></p>
+            <p>Something not working? Email <a href="mailto:bl2gf@virginia.edu">bl2gf@virginia.edu</a></p>
+          </footer>
+        
 </html>

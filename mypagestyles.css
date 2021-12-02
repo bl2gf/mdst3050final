@@ -42,9 +42,6 @@ body{
     transform: scale(1.05); 
   }
 
-
-
-
 @keyframes text {
     0%{
         color: rgb(74, 152, 179);
@@ -61,17 +58,78 @@ body{
     }
 }
 
-footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgb(187, 208, 209);
-  color: white;
-  text-align: center;
-  margin-top: 100px;
+.theheadingimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: auto;
+    border: 0px;
+    background-color: transparent;
+}
+.theheading{
+    align-items: center;
+    margin-top: 5px;
+
 }
 
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 500px) {
+
+
+li{
+    list-style-type: none;  
+    margin: 0 2vw;
+    font-size: 3vh;
+    display: inline-block;
   }
+
+  .aa{
+    text-decoration: none;
+    padding: 2vw;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  nav{
+    width: 100vw;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+  }
+  button{
+    display: none;
+  }
+
+  footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(187, 208, 209);
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media only screen and (max-width: 500px) {
+   button{
+     /*makes the button visible*/
+     display: block;
+     
+     /*since we are here, we can style it a little bit!*/
+     padding: 2vw;
+     font-size: 3vh;
+     background-color: #AFE0FF;
+     border: none;
+     
+     /*outline none removes the default blue border that appears anytime you click on the button*/
+     outline: none;
+     
+     cursor: pointer;
+   }
+ }
