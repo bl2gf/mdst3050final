@@ -1,3 +1,10 @@
+@import "compass/css3";
+
+@import "compass/reset";
+@import "compass/css3";
+
+
+
 body{
     background-color: rgb(74, 152, 179);
     margin: 0;
@@ -61,8 +68,69 @@ body{
     }
 }
 
+.theheadingimg{
+    width: 90%;
+    height: auto;
+    border: 0px;
+    background-color: transparent;
+}
+.theheading{
+    align-items: center;
 
+}
+
+
+
+li{
+    list-style-type: none;  
+    margin: 0 2vw;
+    /* our font-size will be 3% of the height of the viewport */
+    font-size: 3vh;
+  }
+  a{
+    text-decoration: none;
+    
+    /*below I changed the color*/
+    color: black;
+    /*I added some padding*/
+    padding: 2vw;
+    /*also changed the font family but that's totally irrelevant*/
+    font-family: monospace;
+  }
+  a:hover{
+    background-color: #C6E9FF;
+  }
+  nav{
+    width: 100vw;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+  }
+  
 
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 500px) {
+  @media only screen and (max-width: 500px) {
+    ....
+   
+   button{
+     /*makes the button visible*/
+     display: block;
+     
+     /*since we are here, we can style it a little bit!*/
+     padding: 2vw;
+     font-size: 3vh;
+     background-color: #AFE0FF;
+     border: none;
+     
+     /*outline none removes the default blue border that appears anytime you click on the button*/
+     outline: none;
+     
+     cursor: pointer;
+   }
+ }
+  button{
+    display: none;
   }
