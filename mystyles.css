@@ -7,8 +7,9 @@ body{
   }
 
   #thetitlee{
-    font-size: 60px;
+    font-size: 40px;
     color: rgb(74, 152, 179);
+    text-transform: uppercase;
     text-align: center;
     animation: text 2s 1;
     letter-spacing: 8px;
