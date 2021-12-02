@@ -6,6 +6,27 @@ body{
     font-family: 'Didact Gothic', sans-serif;
   }
 
+  #contenthead{
+      padding-top: 80px;
+      padding-bottom: 20px;
+      font-size: 60px;
+  }
+
+  #contentp{
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.ads{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+    margin-bottom: 30px;
+}
+
   #thetitlee{
     font-size: 40px;
     color: rgb(74, 152, 179);
